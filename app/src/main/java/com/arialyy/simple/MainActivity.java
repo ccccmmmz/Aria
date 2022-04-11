@@ -48,6 +48,7 @@ import com.arialyy.simple.core.upload.HttpUploadActivity;
 import com.arialyy.simple.core.upload.SFtpUploadActivity;
 import com.arialyy.simple.databinding.ActivityMainBinding;
 import com.arialyy.simple.modlue.CommonModule;
+import com.arialyy.simple.refactor.RoomKit;
 import com.arialyy.simple.to.NormalTo;
 import java.util.ArrayList;
 import java.util.List;
@@ -145,6 +146,8 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
         }, Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE);
       }
     }
+
+//    RoomKit.INSTANCE.testBook(this);
   }
 
   @Override protected int setLayoutId() {

@@ -41,7 +41,7 @@ public class HttpUploadActivity extends BaseActivity<ActivitySingleBinding> {
   private static final String TAG = "HttpUploadActivity";
 
   //private final String FILE_PATH = "/mnt/sdcard/QQMusic-import-1.2.1.zip";
-  private final String FILE_PATH = "/mnt/sdcard/update.jpg";
+  private final String FILE_PATH = "/mnt/sdcard/small.jpg";
   //private final String FILE_PATH =
   //    Environment.getExternalStorageDirectory().getPath() + "/Download/QQMusic-import-1.2.1.zip";
   private UploadEntity mEntity;
